@@ -9,7 +9,7 @@ const SimpleInput = (props) => {
   const [enteredNameIsTouched, setEnteredNameIsTouched] = useState(false);
 
 
-  const enteredNameIsValid = enteredName.trim() !== "" && enteredNameIsTouched;  //jeva touch pan asel ani write pan asel teva 
+  const enteredNameIsValid = enteredName.trim() !== "" && enteredNameIsTouched;  
 
   const nameInputIsInValid = !enteredNameIsValid && enteredNameIsTouched;
 
